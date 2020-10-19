@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(200, 15%, 85%);
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    color: #9e2f2f;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+h2 {
+    background-color: hsl(200, 15%, 55%);
+    color: #9e2f2f;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+h3 {
+    background-color: hsl(200, 15%, 65%);
+    color: hsl(278, 75%, 29%);
+    font-size: 130%;
+    font-style: italic;
+}
+
+p {
+    background-color: hsl(200, 15%, 75%);
+}
+
+em {
+    color: hsl(200, 100%, 40%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    color: hsl(200, 100%, 30%);
+    font-weight: normal;
+}
+
+address {
+    background-color: white;
+    font-weight: bold;
+    text-align: right;
+}
+p.estilo1 {
+     border: black 10px solid;
+    border-radius: 30px;
+    margin-right: 60%;
+    padding: 20px;
+    background-color: white;
+}
+p.estilo2{
+    border: hsl(34, 100%, 25%) 15px solid;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   
+    padding: 5px;
+    background-color: hsl(34, 50%, 45%);
+    color: white;
+}
+p.estilo3{
+     border: hsl(207, 50%, 45%) 5px dashed;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    background-color: hsl(207, 100%, 25%);
+    color: white;
+}
+img.borde{
+ border: black 10px solid;
+    border-radius: 30px;
+}
+
+ul {
+    list-style-type: none;/*desactiva viñetas*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Especifica qué sucede si el contenido
+    del cuadro de un elemento se desborda */
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+    background-color: #f1d517;
+    color:#333;
+}
+
+li a:active { /*Cuando da click en el mouse */
+    background-color: #609acf;
+    font-size: 120%;
+}
+
+li:last-child{
+float: right;
+background-color: rgba(106, 116, 116, 0.69);
+color:white;
+}
+

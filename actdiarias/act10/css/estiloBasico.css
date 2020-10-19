@@ -1,0 +1,112 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+h1 {
+font: bold 20px verdana, sans-serif;
+text-align: right;
+} h2 {
+font: bold 14px verdana, sans-serif;
+text-align: right;
+}
+
+/*para asegurarnos de que serán tratados como regularmente
+se hace con elementos <div> y de este modo construir
+el modelo de caja*/
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup{
+display: block;
+}
+/*Centrando el cuerpo*/
+body {
+text-align: center;
+/*}background-image: url("paper.gif");*/
+/*background-color: lightblue;*/
+}
+/*Definiendo las propiedades de la caja principal*/
+#agrupar {
+width: 960px;
+margin: 15px auto;
+text-align: right;
+}
+/* Agregando estilos para <header>.*/
+#cabecera {
+background: #4059AD;
+border: 1px solid #999999;
+padding: 20px;
+
+}
+/*Agregando estilos para <nav>.*/
+#menu {
+background: #6B9AC4;
+padding: 5px 15px;
+}
+#menu li {
+display: inline-block;
+list-style: none; /*list-style: square inside url("sqpurple.gif");*/
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+}
+/*Section y aside*/
+/*La propiedad flotante especifica cómo debe flotar un elemento.
+Nota: ¡Los elementos absolutamente posicionados ignoran
+la propiedad de flotación!
+Nota: los elementos después de un elemento flotante fluirán a su alrededor.
+Para evitar esto, use la propiedad clear o el clearfix hack
+*/
+#seccion {
+float: left;
+width: 660px;
+margin: 20px;
+}
+
+#columna {
+float: left;
+width: 220px;
+margin: 20px 0px;
+padding: 20px;
+background: #97D8C4;
+}
+/*Footer*/
+#pie {
+clear: both;/* No permita elementos flotantes en el lado izquierdo
+                o derecho de un elemento <p> especificado:*/
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+}
+/*imagenes*/
+#imagen{
+  width: 20%;
+  height: 20%;
+}
+
+#imagen2{
+  width: 15%;
+  height: 10%;
+}
+
+/*Agregando los últimos toques a nuestro diseño básico.*/
+article {
+background: #EFF2F1;
+border: 1px solid #999999;
+padding: 20px;
+margin-bottom: 15px;
+}
+
+article footer {
+text-align: right;
+}
+
+img{
+  width: 30%;
+  height: 35%;
+}
+
+time {
+color: #999999;
+}
+
+figcaption {
+font: italic 14px verdana, sans-serif;
+}
