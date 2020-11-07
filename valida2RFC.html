@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control submit por evento formulario</title>
+<script type="text/javascript" src="js/rfc.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<ul>
+  
+  <li><a href="4OncliclkExternoQuerySelector.html">Actividad 1</a></li>
+  <li><a href="5OncliclkExternoQuerySelectorAll.html">Actividad 2</a></li>
+  <li><a href="helloworld.html">Actividad 3</a></li>
+  <li><a href="parimpar.html">Actividad 4</a></li>
+  <li><a href="valida2RFC.html">Actividad 5</a></li>
+  <li><a href="zodiaco.html">Actividad 6</a></li>
+  <br>
+	
+	<form>
+		RFC <input type="text" name="txtRFC" maxlength="13" size="15" />
+		<br/>
+		<input type="submit" onClick="return valida(txtRFC);" value="Ok"/>
+	</form>
+	<form>
+		Nombre <input type="text" name="nombre" maxlength="13" size="15"/>
+		<br/>
+		Ap paterno <input type="text" name="appaterno" maxlength="13" size="15"/>
+		<br/>
+		Ap materno <input type="text" name="apmaterno" maxlength="13" size="15"/>
+		<br/>
+		Fecha de nacimiento <input type="date" name="fecha" maxlength="13" size="15"/>
+		<br/>
+		 <input type="submit" onClick=" generarfc(nombre, appaterno, apmaterno, fecha);" />
+		<br/>
+	</form>
+
+</body>
+</html>
